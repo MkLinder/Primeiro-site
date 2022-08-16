@@ -3,20 +3,32 @@
     font-size: 16px;
 }
 
+/* A partir daqui menu*/
+
 main.menu {
     background-color: white;
-    width: fit-content;
-    padding: 16px; 
-    margin-bottom: 30px;
+    width: auto;
+    padding-block: 30px; 
+    margin-bottom: 20px;
+    
      
 }
 
-span {
+a.menu {
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 13px;
+    color: black;
+    margin-right: 50px;
+    
+    
+    
 }
 
+a.menu:hover {
+    color: rgb(81, 47, 114);
+}
 
+/* A partir daqui Body*/
 
 body {
     background-color: rgb(203, 159, 245);
@@ -24,7 +36,7 @@ body {
 
 main.text {
     background-color: white;
-    width: 560px;
+    width: 700px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.425);
@@ -51,13 +63,14 @@ img.side {
     float: right;
 }
 
-a {
+
+a.sub {
     text-decoration: none;
     font-weight: bold;
     color: blue;
 }
 
-a:hover {
+a.sub:hover {
     text-decoration: underline;
     color: blue;
 }
