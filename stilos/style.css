@@ -1,13 +1,15 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    
 }
 
 /* A partir daqui menu*/
 
 main.menu {
-    background-color: white;
+    background-color: #CBF0EB;
     width: auto;
+    border-radius: 1em;
     padding-block: 30px; 
     margin-bottom: 20px;
     
@@ -31,11 +33,12 @@ a.menu:hover {
 /* A partir daqui Body*/
 
 body {
-    background-color: rgb(203, 159, 245);
+    background-image: linear-gradient(to bottom, #13A0EB, #0F7CB8, #29546B);
+    background-attachment: fixed;
 }
 
 main.text {
-    background-color: white;
+    background-color: #CBF0EB;
     width: 700px;
     margin: auto;
     padding: 10px;
